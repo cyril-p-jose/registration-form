@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h2>Registration Form</h2>
+
+        <form onsubmit="return validatePhone()">
+            <input type="text" placeholder="Name" required><br>
+
+            <input type="email" placeholder="Email" required><br>
+
+            <input type="text" id="phone" placeholder="Phone Number"><br>
+            <small id="error"></small><br>
+
+            <button type="submit">Register</button>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
